@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+
+
 body{
     margin: auto;
     background-color: #773344
@@ -9,17 +11,36 @@ body{
 nav {
     display: flex;
     background-color: #e3b5a4; 
-    padding: 50px;
-    justify-content: space-around;   
+    justify-content: space-between; 
+    align-items: center;  
 
+}
+
+h1, h2 {
+    font-family: 'Cookie', cursive;
+    font-weight: normal;
+}
+
+h2{
+    font-size: 3em;
+}
+
+p, li{
+    font-size: 1.2em;
+}
+
+.logo {
+    font-size: 6em;
+    margin: 10px;
+   
+    
 }
 
 .menu{
     margin: 0px;
     list-style: none;
-    display: inline;
-    
-    
+    display: inline;   
+
 }
 
 a{ 
@@ -31,36 +52,54 @@ a{
 li a:hover{
     color: #0b0014 ;
 }
-.apresentacao{
-    display: table;
-}
 
-.foto{
-    display: table-cell;
-    float: left;
+.apresentacao{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    width: 70%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .texto{
-    display: table-cell;
-    float: left;
-    width: 300px;
-    margin-top: 130px;
-    margin-left: 20px;
     text-align: justify;
-}
+    width: 300px;
+    margin-left: 20px;
+    }
+
 
 footer{
     background-color: #0b0014;
-    margin: 0px;
+    margin: auto;
     color: #e3b5a4;
-    padding: 30px;
     text-align: center;
+    display: flex;
+    flex-flow: column;  
+}
+
+footer > h2 {
+    margin: 10px 0px;
+}
+
+footer > ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+footer > ul > li {
+    padding-bottom: 5px;
 }
 
 .contatos{
-    list-style: none;
     margin-left: auto;
     margin-right: auto;
-    width: 11em;  
+    width: 11em;
+}
+
+.contatos:hover{
+    color: #e3b5a4;
 }
 
