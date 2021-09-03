@@ -1,7 +1,6 @@
 @charset "UTF-8";
 
 
-
 body{
     margin: auto;
     background-color: #773344
@@ -59,7 +58,6 @@ li a:hover{
     flex-wrap: nowrap;
     width: 70%;
     margin: auto;
-    justify-content: center;
     align-items: center;
     
 }
@@ -101,5 +99,45 @@ footer > ul > li {
 
 .contatos:hover{
     color: #e3b5a4;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+
+  }
+
+.livro{
+    box-shadow: 5px 5px 5px;
+    background-color: #f5e9e2;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    margin: 20px;
+    
+  }
+
+.resumo{
+    text-align: justify;
+    margin: 10px;
+    
+
+}
+
+.genero{
+    text-align: center;
+    
+    
+    
+}
+
+.foto{
+    margin-top: 7px;
+}
+
+.definicao{
+    text-align: justify;
+    margin: 1px 150px;
 }
 
